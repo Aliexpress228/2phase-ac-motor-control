@@ -1,0 +1,45 @@
+# === Build output ===
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.elf
+*.map
+*.list
+*.hex
+*.bin
+*.axf
+
+# === Debug / IDE ===
+.metadata/
+*.launch
+*.cfg
+.cache/
+.settings/org.eclipse.cdt.*
+
+# === Прочие IDE ===
+.idea/
+.vscode/
+*.code-workspace
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Бэкапы и копии ===
+*копия*
+*.bak
+*~
+*.orig
+*.rej
+
+# === Логи и экспорт ===
+*.log
+SWV_export/
+swv*.txt
+
+# === Личное ===
+дфи3.txt
+notes*.md
